@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>Calcualtor</title>
+    <style>
+        .button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        .button1 {width: 250px;}
+        .button2 {width: 50%;}
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+}
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			crossorigin="anonymous">
+    </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 style= "text-align: center";>Simple Calculator</h1> 
+                <hr class="my-4">     
+            </div>
+            <div align="center">
+            <textarea class="center" id="resultArea" readonly rows="4" cols="42"></textarea>
+            </div>
+            <table class="center"> 
+                <tr>
+                    <td><button id="clrTxt" class="button btn-danger" >C</button></td>
+				    <td><button id="del" class="button button2" >&#x2612;</button></td>
+                    <td><button id="cal5" class="button button2" >M</button></td>
+                    <td><button id="cal4" class="button button2" >E</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" id="num7" class="button button2">7</button></td>
+                    <td><button type="button" id="num8" class="button button2">8</button></td>
+                    <td><button type="button" id="num9" class="button button2">9</button></td>
+                    <td><button type="button" id="cal3" class="button button2">&div;</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="num4" class="button button2">4</button></td>
+                    <td><button id="num5" class="button button2">5</button></td>
+                    <td><button id="num6" class="button button2">6</button></td>
+                    <td><button id="cal2" class="button button2">&times;</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="num1" class="button button2">1</button></td>
+                    <td><button id="num2" class="button button2">2</button></td>
+                    <td><button id="num3" class="button button2">3</button></td>
+                    <td><button id="cal1" class="button button2">&minus;</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="poi" class="button button2">.</button></td>
+                    <td><button id="num0" class="button button2">0</button></td>
+                    <td><button id="equ" class="button button2">=</button></td>
+                    <td><button id="cal0" class="button button2">&plus;</button></td>
+                </tr>
+
+            </table>
+
+        </div>
+        <script type="text/javascript" src="{% static 'js/calc.js' %}"></script>
+    </body>
+</html>
