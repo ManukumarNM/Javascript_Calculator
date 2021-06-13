@@ -1,8 +1,11 @@
-# simple_calculator
-#Simple Calculator - Basic operation like addition, subtraction, multiplication, division can be done using this application.
+# Title - Javascript_Calculator
+#Simple javascript Calculator - Basic operation like addition, subtraction, multiplication, division can be done using this application.
 
 # Built with
-01. Technologies used JavaScript,Python-Django, HTML, CSS.
+JavaScript
+Python-Django
+HTML
+CSS
 02. Modulus and Exponential is under development.
 
 # How to run project
