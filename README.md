@@ -5,10 +5,10 @@
 ![Calculator_01](https://user-images.githubusercontent.com/24228300/121813840-79263680-cc8b-11eb-91ed-0c6ac48adff1.PNG)
 
 # Built with
-JavaScript
-Python-Django
-HTML
-CSS
+JavaScript,
+Python-Django,
+HTML,
+CSS,
 02. Modulus and Exponential is under development.
 
 # How to run project
